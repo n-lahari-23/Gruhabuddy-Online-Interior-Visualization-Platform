@@ -1,0 +1,112 @@
+# Welcome to your GruhaBuddy project
+
+## Project info
+
+**URL**:https://happy-magic-link.lovable.app
+
+##Project Structure
+project-root/
+│
+├── public/
+│   └── favicon.ico          # Static assets accessible directly by the browser
+│
+├── src/
+│   ├── assets/              # Images, icons, fonts, and other static resources
+│   │
+│   ├── components/          # Reusable UI components
+│   │   ├── ui/              # shadcn/ui-based components
+│   │   └── common/          # Shared components used across pages
+│   │
+│   ├── pages/               # Page-level components (route-based views)
+│   │
+│   ├── hooks/               # Custom React hooks
+│   │
+│   ├── lib/                 # Utility functions and helper modules
+│   │
+│   ├── styles/              # Global styles and Tailwind CSS files
+│   │
+│   ├── App.tsx              # Root React component
+│   ├── main.tsx             # Application entry point
+│   └── index.css            # Global CSS (Tailwind directives)
+│
+├── index.html               # Main HTML template
+│
+├── package.json             # Project metadata, dependencies, and scripts
+├── package-lock.json        # Dependency lock file
+│
+├── tailwind.config.ts       # Tailwind CSS configuration
+├── postcss.config.js        # PostCSS configuration
+│
+├── tsconfig.json            # TypeScript compiler configuration
+├── tsconfig.node.json       # TypeScript config for tooling
+│
+├── vite.config.ts           # Vite configuration
+│
+├── .gitignore               # Files and folders ignored by Git
+│
+└── README.md                # Project documentation
+
+
+## How can I edit this code?
+You can fully edit and maintain this project without  by working directly with GitHub or a local development environment. The project follows a standard Vite + React + TypeScript workflow.
+
+
+Simply visit the [Interior Project](https://happy-magic-link.lovable.app)and start prompting.
+
+Changes made via Lovable will be committed automatically to this repo.
+
+**Use your preferred IDE**
+
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected.
+
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+
+Follow these steps:
+
+'''sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
+
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
+
+# Step 3: Install the necessary dependencies.
+npm i
+
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
+```
+
+**Edit a file directly in GitHub**
+
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
+
+**Use GitHub Codespaces**
+
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
+
+## What technologies are used for this project?
+
+This project is built with:
+
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
+
+## How can I deploy this project?
+
+The project is already deployed and accessible here:
+
+Production URL:
+https://happy-magic-link.lovable.app
+
+You can redeploy anytime by building and publishing the project through your preferred hosting workflow.
+

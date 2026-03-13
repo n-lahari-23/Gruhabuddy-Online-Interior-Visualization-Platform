@@ -1,2 +1,24 @@
-# Gruhabuddy-Online-Interior-Visualization-Platform
- Gruhabuddy is an online platform where users upload their room details or images to get suitable interior design suggestions and cost estimates
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
